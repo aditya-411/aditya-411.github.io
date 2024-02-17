@@ -134,3 +134,16 @@ article{
     margin-bottom: 3%;
   }
 
+  .achievement_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+  font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+    padding: 2 rem;
+}
