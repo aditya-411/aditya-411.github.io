@@ -67,7 +67,7 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 .header_links{
     font-size:x-large; 
