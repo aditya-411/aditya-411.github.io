@@ -145,6 +145,18 @@ article{
 
 .achievement_list li{
   font-family: "Courier Prime", monospace;
-  font-size: 1.2rem;
+  font-size: 4vw;
+}
+
+.container h1{
+  font-size: 11vw;
+}
+
+.container p{
+  font-size: 4vw;
+}
+
+.container{
+  padding-top: 3rem;
 }
 
