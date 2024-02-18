@@ -50,8 +50,13 @@ article{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 10%;
+}
+@media screen and (min-width: 400px){
+    article{
+        padding-top: 0%;
+    }
 }
 .header_links{
     font-size:x-large; 
