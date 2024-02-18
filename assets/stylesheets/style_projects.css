@@ -28,7 +28,7 @@ h1{
 header{
     background-color:antiquewhite;
     position: fixed;
-    opacity: 0.8;
+    opacity: 0.9;
     left: 0;
     top: 0;
     padding: 0.3rem;
@@ -110,10 +110,9 @@ article{
     font-weight: 50;
     font-style: normal;
     text-align: center;
-    color:rgb(52, 128, 154);
-    
 }
-a{
-    text-decoration: none;
+
+.project_link a{
+    color:rgb(52, 128, 154);
 }
 

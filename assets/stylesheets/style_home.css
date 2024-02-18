@@ -4,7 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: antiquewhite;
+    background-color: rgb(251, 218, 175);
 }
 h1{
     align-self: center;
@@ -21,7 +21,7 @@ h1{
     align-items: center;
     width: 100%;
     position: relative;
-    background: url("images/study-room-in-white_1.jpg");
+    background: url("../images/study-room-in-white_1.jpg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,6 @@ h1{
     flex-direction: column;
     justify-content:center;
     align-items: center;
-
 }
 .cover-text{
     margin:0%;
@@ -46,13 +45,14 @@ h1{
 header{
     background-color:antiquewhite;
     position: fixed;
-    opacity: 0.8;
+    opacity: 0.;
     left: 0;
     top: 0;
     padding: 0.3rem;
     width: 100%;
     z-index: 10;
     display: inline;
+    vertical-align: middle;
 }
 p{
     font-family: "Courier Prime", monospace;
@@ -67,6 +67,7 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 2rem;
 }
 .header_links{
     font-size:x-large; 
@@ -126,10 +127,11 @@ article{
 
   #profile_pic{
     border-radius: 50%; 
-    width: 100%; 
+    width: 40vw; 
     height: auto;
     margin-bottom: 3%;
   }
+
 
   .achievement_list{
     display: flex;
@@ -137,10 +139,12 @@ article{
     align-items: center;
 }
 
-li{
-  font-family: "Courier Prime", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.3em;
-    padding: 2 rem;
+.highlight{
+  color:rgb(227, 149, 3);
 }
+
+.achievement_list li{
+  font-family: "Courier Prime", monospace;
+  font-size: 1.2rem;
+}
+

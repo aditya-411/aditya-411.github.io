@@ -9,22 +9,27 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Riot&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style_home.css">
+        <link rel="stylesheet" href="assets/stylesheets/style_home.css">
+        <link rel="stylesheet" href="assets/stylesheets/nav_bar.css">
 
 
 
             
     </head>
     <body>
-        <header>
-                <span style="font-size:x-large; color: orange;" class="protest-riot-regular">M4V3R1CK</span>
-                <a class="header_links protest-riot-regular" href="social.html" >Social</a>
-                <a class="header_links protest-riot-regular" href="projects.html" >Projects</a>
-                <a class="header_links protest-riot-regular" href="index.html">About</a>
+        <header class="header">
+            <span class="logo protest-riot-regular">M4V3R1CK</span>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="index.html">About</a></li>
+              <li><a href="assets/pages/projects.html">Projects</a></li>
+              <li><a href="assets/pages/social.html">Contact</a></li>
+            </ul>
         </header>
         <div id="cover_div">
             <div id="cover_content",>
-                    <img src="images/profile_pic.jpg", id="profile_pic">
+                    <img src="assets/images/profile_pic.jpg", id="profile_pic">
                     <p class="cover-text">Hi! I am</p><span class="protest-riot-regular", id="title_name">M4V3R1CK</span>
             </div>
             <p class="cover-text">A developer at <span id="Labs">SDSLabs</span></p>
@@ -32,7 +37,7 @@
         </div>
         <article>
             <h1>#AboutMe</h1>
-            <center><p>Hola! I'm <span style="color: orange;">Aditya Jain (aka M4V3R1CK)</span>, an undergraduate student at <span style="color: orange;">IIT Roorkee</span> pursuing BS-MS Economics.
+            <center><p>Hola! I'm <span class="highlight">Aditya Jain (aka M4V3R1CK)</span>, an undergraduate student at <span class="highlight">IIT Roorkee</span> pursuing BS-MS Economics.
             I have a great interest in programming and finance, and I'm always looking forward for new opportunities to learn and grow.
         </p></center>
         </article>
@@ -44,12 +49,12 @@
             </p></center>
             <div class="achievement_list">
                 <ul>
-                    <li><span style="color: rgb(237, 155, 3);">NTSE Scholar</span></li>
-                    <li><span style="color: rgb(237, 155, 3);">Winner -</span> Syntax Error X alum track</li>
-                    <li><span style="color: rgb(237, 155, 3);">Top 10 -</span> N00bCTF (hosted by InfoSecIITR)</li>
-                    <li><span style="color: rgb(237, 155, 3);">Winner -</span> Finception (hosted by Finance Club IITR)</li>
-                    <li><span style="color: rgb(237, 155, 3);">Winner -</span> FinVista (hosted by Finance Club IITR)</li>
-                    <li><span style="color: rgb(237, 155, 3);">Winner -</span> Business Baazigaar (hosted by SocBiz IITR)</li>
+                    <li><span class="highlight">NTSE Scholar</span></li>
+                    <li><span class="highlight">Winner -</span> Syntax Error X alum track</li>
+                    <li><span class="highlight">Top 10 -</span> N00bCTF (hosted by InfoSecIITR)</li>
+                    <li><span class="highlight">Winner -</span> Finception (hosted by Finance Club IITR)</li>
+                    <li><span class="highlight">Winner -</span> FinVista (hosted by Finance Club IITR)</li>
+                    <li><span class="highlight">Winner -</span> Business Baazigaar (hosted by SocBiz IITR)</li>
                 </ul>
             </div>
         </article>
