@@ -95,7 +95,7 @@ a{
     align-items: center;
     transform: translateY(-80px);
     padding-left: 10%;
-    width: 90%;
+    width: 90% - 1em;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
