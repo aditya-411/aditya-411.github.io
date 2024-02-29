@@ -49,7 +49,7 @@ header{
     left: 0;
     top: 0;
     padding: 0.3rem;
-    width: 100%;
+    width: calc(100% - 0.3rem);
     z-index: 10;
     display: inline;
     vertical-align: middle;
@@ -73,7 +73,6 @@ article{
     font-size:x-large; 
     color: orange;
     float: right;
-    padding-inline: 10px;
     text-decoration: none;
 }
 
@@ -151,7 +150,7 @@ article{
 
 @media screen and (max-width: 600px){
   .container h1{
-    font-size: 13vw;
+    font-size: 12vw;
   }
   
   .container p{

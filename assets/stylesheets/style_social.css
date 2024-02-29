@@ -92,7 +92,6 @@ a{
 .social_div{
     display: flex;
     justify-content: left;
-    align-items: center;
     transform: translateY(-80px);
     padding-left: 10%;
     width: 90% - 1em;
@@ -115,8 +114,6 @@ a{
 
 
 .content{
-    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;    
 }
