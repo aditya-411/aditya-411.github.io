@@ -12,7 +12,7 @@ html, body {
 }
 h1{
     align-self: center;
-    font-size: 15vw;
+    font-size: 4em;
     font-family: "Courier Prime", monospace;
     font-weight: 400;
     font-style: normal;
@@ -39,7 +39,7 @@ p{
     font-family: "Courier Prime", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 5vw;
+    font-size: 2rem;
     margin: 0px;
     padding: 0;
     text-align: center;
@@ -58,6 +58,47 @@ article{
         padding-top: 0%;
     }
 }
+
+@media screen and (max-width: 600px){
+    .social_text{
+        display: none;
+    }
+    .content{
+        display: flex;
+        width: 60%;
+    }
+    .social_div{
+        width: 50%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+    }
+    .social_img{
+        align-self: center;
+        height: 100%;
+        width: 100%;
+    }
+    p{
+        font-size: 5vw;
+    }
+    
+    
+}
+.social_text{
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.social_text a{
+    color:black;
+}
 .header_links{
     font-size:x-large; 
     color: orange;
@@ -66,12 +107,10 @@ article{
     text-decoration: none;
 }
 
-
 .social_div{
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 90%;
     transform: translateY(-80px);
     padding-left: 10%;
     overflow-wrap: break-word;
@@ -87,18 +126,8 @@ article{
     padding: 10px;
 }
 
-.social_text{
-    font-family: "Courier Prime", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 5vw;
-}
 
-a{
-    text-decoration: none;
-    color:black;
-}
-
-.social_text a{
-    color:black;
+.center_content{
+    align-items: center;
+    width: 70%;
 }

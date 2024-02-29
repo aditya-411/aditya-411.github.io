@@ -127,7 +127,7 @@ article{
 
   #profile_pic{
     border-radius: 50%; 
-    width: 40vw; 
+    width: 20rem; 
     height: auto;
     margin-bottom: 3%;
   }
@@ -144,19 +144,27 @@ article{
 }
 
 .achievement_list li{
-  font-family: "Courier Prime", monospace;
-  font-size: 4vw;
+  font-size: 1.5em;
+  margin: 5px;
+  padding: 2 rem;
 }
 
-.container h1{
-  font-size: 11vw;
+@media screen and (max-width: 600px){
+  .container h1{
+    font-size: 13vw;
+  }
+  
+  .container p{
+    font-size: 5vw;
+  }
+  
+  .container{
+    padding-top: 3rem;
+  }
+  .achievement_list li{
+    font-family: "Courier Prime", monospace;
+    font-size: 5vw;
+  }
 }
 
-.container p{
-  font-size: 4vw;
-}
-
-.container{
-  padding-top: 3rem;
-}
 
