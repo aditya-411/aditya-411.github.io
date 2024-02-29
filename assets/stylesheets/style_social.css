@@ -68,7 +68,7 @@ article{
     p{
         font-size: 5vw;
     }
-    
+
     
 }
 
@@ -95,7 +95,7 @@ a{
     align-items: center;
     transform: translateY(-80px);
     padding-left: 10%;
-    width: 100%;
+    width: 90%;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
